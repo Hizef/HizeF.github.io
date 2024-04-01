@@ -1,6 +1,32 @@
+body {
+    background-color: #555;
+}
+
 #wrapper {
+    background-color: #eee;
     width: 1100px;
     margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#introduce {
+    font-size: 1.5em;
+}
+
+aside > p {
+    margin: 5px 10px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 article > h1 {
@@ -13,8 +39,30 @@ mark {
     background-color: #e2e2e2;
     color: rgb(58, 167, 55);
     padding: 3px;
+    font-size: 0.95em;
+}
+
+ul {
+    padding: 10px;
 }
 
 li {
     list-style: none;
+    padding: 3px;
+}
+
+#aboutMe,
+#profile,
+#opensource {
+    padding-left: 8px;
+}
+
+#profile {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profileChild {
+    padding: 10px;
+    flex: 1 1 40%;
 }
