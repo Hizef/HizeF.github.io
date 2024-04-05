@@ -1,68 +1,80 @@
 body {
-    background-color: #555;
+  background-color: #555;
 }
 
 #wrapper {
-    background-color: #eee;
-    width: 1100px;
-    margin: 0 auto;
-    padding: 10px;
-    box-sizing: border-box;
+  background-color: #eee;
+  width: 1100px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 #introduce {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 aside > p {
-    margin: 5px 10px;
+  margin: 5px 10px;
 }
 
 #contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 article > h1 {
-    border-bottom: 3px dotted #ccc;
-    text-align: center;
-    padding: 5px 0;
+  border-bottom: 3px dotted #ccc;
+  text-align: center;
+  padding: 5px 0;
 }
 
 mark {
-    background-color: #e2e2e2;
-    color: rgb(58, 167, 55);
-    padding: 3px;
-    font-size: 0.95em;
+  background-color: #e2e2e2;
+  color: rgb(58, 167, 55);
+  padding: 3px;
+  font-size: 0.95em;
 }
 
 ul {
-    padding: 10px;
+  padding: 10px;
 }
 
 li {
-    list-style: none;
-    padding: 3px;
+  list-style: none;
+  padding: 3px;
 }
 
 #aboutMe,
-#profile,
-#opensource {
-    padding-left: 8px;
+#profile {
+  padding-left: 8px;
 }
 
 #profile {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .profileChild {
-    padding: 10px;
-    flex: 1 1 40%;
+  padding: 10px;
+  flex: 1 1 40%;
+}
+
+#project {
+  display: flex;
+  justify-content: center;
+}
+
+.resumeTable > tr > th {
+  border-bottom: 1px solid black;
+}
+
+.tableUl {
+  margin: 0px;
 }
